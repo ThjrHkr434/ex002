@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas man</h1>
+    <p><a href="Pedro.html">volte para o nosso site</a></p>
+    <p>Abra esse site em vários <abbr title="celular, computador, tablet, tv e as peste">dispositivos diferentes</abbr> para testar as imagens que ficam grandes ou pequenas,dependendo é claro, do dispositivo</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="fotos/P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="fotos/M.png" type="image/png">
+        <img src="fotos/G.png" alt="nada">
+    </picture>
+    <h1>Sons para o HTML5</h1>
+    <audio src="media/audio.mp3" controls></audio>
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Que audio bosta ksksksksks</p>
+    <p>Se liga</p>
+    <audio preload="metadata" autoplay>
+        <source src="media/audio.mp3" type="audio/mpeg"></audio>
+        <p>Se não ouviu nada, se ferrou, eu sou do bem <a href="media/audio.mp3">baixa aé</a><br>Sim, era pravc ter escutado algo sem apertar no botão play</p>
+</body>
+</html>
